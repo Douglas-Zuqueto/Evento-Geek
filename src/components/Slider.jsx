@@ -1,4 +1,4 @@
-import logo from '../assets/images/Geek_Tech_logo.jpeg'
+import logo from '../assets/images/logo.png'
 // slide página principal
 export default function Slider() {
     return (
