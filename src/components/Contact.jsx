@@ -1,4 +1,9 @@
 import img1 from '../assets/images/red demon.jpg'
+import img2 from '../assets/images/nickyIcon.jpg'
+import img3 from '../assets/images/red demon.jpg'
+import img4 from '../assets/images/red demon.jpg'
+import img5 from '../assets/images/red demon.jpg'
+
 import animelogo1 from '../assets/images/animeuaiLogo.webp'
 import animelogo2 from '../assets/images/gifLogo.jpg'
 import animelogo3 from '../assets/images/paniniLogo.png'
@@ -20,7 +25,7 @@ export default function Contact() {
                 <div className="contactUs">
                     <h1>Equipe Produtora</h1><br />
                     <div className='cardEq'>
-                    <img src={img1} className='equipeFoto'/>
+                    <img src={img2} className='equipeFoto'/>
                     <img src={img1} className='equipeFoto'/>
                     <img src={img1} className='equipeFoto'/>
                     <img src={img1} className='equipeFoto'/>
