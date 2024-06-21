@@ -1,23 +1,23 @@
 /*Importações de imagens*/
-import room1 from './images/League_of_legends.jpg';
-import room2 from './images/Rocket_League.jpg';
-import room3 from './images/Valorant.jpg';
-import room4 from './images/Cosplay.jpg';
-import room5 from './images/prato1.jpg';
-import room6 from './images/prato1.jpg';
-import room7 from './images/prato1.jpg';
-import room9 from './images/dragonball2.jpg';
-import room10 from './images/NarutoShippuden4.jpg';
+import room1 from './images/Kpop.jpg';
+import room2 from './images/Cosplay.jpg';
+import room3 from './images/Estande.jpg';
+import room4 from './images/medieval.jpg';
+import room5 from './images/League_of_legends.jpg';
+import room6 from './images/Valorant.jpg';
+import room7 from './images/Rocket_League.jpg';
+import room8 from './images/dragonball2.jpg';
+import room9 from './images/NarutoShippuden4.jpg';
 
   
   export const listaSalas = [
-      { id: 1, imageurl: room5, name: "K-pop", price: "R$00,00" },
-      { id: 2, imageurl: room4, name: "Cosplay", price: "R$00,00" },
-      { id: 3, imageurl: room7, name: "Estandes de vendas", price: "R$00,00" },
-      { id: 4, imageurl: room6, name: "Arena", price: "R$00,00" },
-      { id: 5, imageurl: room1, name: "League of Legends", price: "R$10,00" },
-      { id: 6, imageurl: room3, name: "Valorant", price: "R$10,00" },
-      { id: 7, imageurl: room2, name: "Rocket League", price: "R$10,00" },
-      {id: 8, imageurl: room9, name: "Dragonball", price: "R$5,00"},
-      {id: 9, imageurl: room10, name: "Naruto UTNS4", price: "R$10,00"}
+      { id: 1, imageurl: room1, name: "K-pop", price: 0o00, reward: 0o00, desc:"Entre no mundo vibrante da cultura K-pop! Nesta sala, você encontrará apresentações emocionantes, coreografias incríveis e muita música envolvente."},
+      { id: 2, imageurl: room2, name: "Cosplay", price: 0o00, reward: 0o00, desc:"Seja quem você quiser ser! A sala de cosplay é o lugar perfeito para mostrar suas habilidades de caracterização e se misturar com outros fãs apaixonados por personagens." },
+      { id: 3, imageurl: room3, name: "Estandes de vendas", price: 0o00, reward: 0o00, desc:"Explore uma variedade de estandes repletos de mercadorias exclusivas. De camisetas a colecionáveis, você encontrará algo especial para levar para casa." },
+      { id: 4, imageurl: room4, name: "Arena", price: 0o00, reward: 0o00, desc:"Prepare-se para a batalha! A sala da arena é onde os competidores se enfrentam em torneios emocionantes. Quem sairá vitorioso?" },
+      { id: 5, imageurl: room5, name: "League of Legends", price: "R$20,00", reward: "R$250,00", desc:"Entre no universo épico de League of Legends! Desafie seus amigos para partidas intensas, aprimore suas habilidades e lute pelo prêmio em dinheiro." },
+      { id: 6, imageurl: room6, name: "Valorant", price: "R$20,00", reward: "R$250,00", desc:"Seja tático, seja estratégico! Em Valorant, você enfrentará adversários em partidas de tiro em equipe. Quem será o melhor agente?" },
+      { id: 7, imageurl: room7, name: "Rocket League", price: "R$15,00", reward: "R$150,00", desc:"Carros, futebol e muita ação! Rocket League combina velocidade e esportes em uma experiência única. Prepare-se para acelerar e marcar gols incríveis." },
+      { id: 8, imageurl: room8, name: "Dragonball", price: "R$10,00", reward: "R$100,00", desc:"Entre no mundo de Dragon Ball! Nesta sala, você encontrará fãs apaixonados pela saga, discussões sobre personagens e até mesmo torneios de luta." },
+      { id: 9, imageurl: room9, name: "Naruto UTNS4", price: "R$10,00", reward: "R$100,00", desc:"Ninjas, jutsus e batalhas épicas! Se você é fã de Naruto, esta sala é o lugar certo para mergulhar no universo shinobi e testar suas habilidades." }
     ];

@@ -1,0 +1,32 @@
+ {modal && (
+                <div className='modal'>
+                    <div className='overlay'></div>
+                    <div className='modal-content'>
+                        <h2 className='h1-1'>Restaurante Boca Aberta</h2>
+                        <p className='p-l-1'>Restaurante</p>
+                        <h2>Assine nossa NewsLetter</h2>
+                        <p>
+                        A assinatura é GRATUITA, assine e ganhe 20% OFF na primeira compra.
+                        </p>
+                        <form onSubmit={handleFormSubmit}>
+                            <input
+                                className='inp'
+                                type='email'
+                                required
+                                placeholder='Seu Email'
+                            />
+
+                            <span>
+                                <p > <input id='same' type='checkbox' required className='in' />
+                                    <label htmlFor='same'> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam, quam libero consequuntur similique tempora fuga odio a possimus mollitia ducimus, itaque soluta officiis error, sapiente distinctio qui obcaecati culpa hic?</label>
+                                </p>
+                            </span>
+                            <button className='btn-pr' type='submit'>Assine</button>
+                        </form>
+                        <button className='close-modal' onClick={toggleModal}>
+                            &times;
+                        </button>
+                    </div>
+                </div>
+
+            )}
