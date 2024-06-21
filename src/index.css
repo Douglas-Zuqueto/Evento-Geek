@@ -1,5 +1,7 @@
 /* Home  */
 #slider {
+  display: flex;
+  flex-direction: column;
   background-image: url(./assets/images/banner_bg_1.png);
   /* background-repeat: no-repeat; */
   min-height: 130vh;
@@ -15,11 +17,18 @@
   background-size: cover;
 }
 
+#sliderlogo {
+  margin: 20vh auto 10px 20px;
+  height: 90px;
+  width: 90px;
+  background: none;
+}
+
 #slidertext {
   position: top;
   float: left;
-  width: 55%;
-  margin: 25vh auto 0px 10px;
+  width: 48%;
+  margin: 0 auto 0px 10px;
   padding-left: 10px;
 }
 
