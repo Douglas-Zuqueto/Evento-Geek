@@ -91,7 +91,7 @@ const Navbar = () => {
                     <li><NavLink activeclassname="active" to="/" onClick={handleMenuItemClick}>Inicio</NavLink></li>
                     <li><NavLink to="/about" onClick={handleMenuItemClick}>Sobre</NavLink></li>
                     <li><NavLink to="/services" onClick={handleMenuItemClick}>Serviços</NavLink></li>
-                    <li><NavLink to="/pricing" onClick={handleMenuItemClick}>Produtos</NavLink></li>
+                    <li><NavLink to="/salas" onClick={handleMenuItemClick}>Salas</NavLink></li>
                     <li><NavLink to="/team" onClick={handleMenuItemClick}>Equipe</NavLink></li>
                     <li><NavLink to="/contact" onClick={handleMenuItemClick}>Contato</NavLink></li>
                     <li >  <button onClick={toggleModal} className='btn btn-signup show' >sdfgfsdgdfgdfgd</button></li>

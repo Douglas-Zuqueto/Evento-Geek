@@ -1,18 +1,17 @@
-import PriceText from './PriceText';
+import Salas from './Salasconteudo';
+import { listaSalas } from '../assets/dataSalas.js';
 
 
-export default function Price() {
+export default function montSalas() {
+
+    const Sala = listaSalas.map((salacont)=> <Salas key={salacont.id} name={salacont.name} url={salacont.imageurl} price={salacont.price}/>);
+
     return (
         <div id="price" >
-            <h1>Produtos</h1>
-            <PriceText />
-            <PriceText />
-            <PriceText />
-            <PriceText />
-            <PriceText />
-            <PriceText />
-            <PriceText />
-            <PriceText />
+            <h1>Bem Vindo</h1>
+            <h4>Escolha uma e venha fazer parte desta experiência</h4>
+            {Sala}
+           
         </div>
     )
 }
