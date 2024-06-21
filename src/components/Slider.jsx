@@ -12,7 +12,7 @@ export default function Slider() {
                 <h1>Geek Tech</h1><br />
                 <p>Um novo evento para todos os Nerds e Otakus se divertirem! 
                     Diferentes atrações para todos os gostos e a chance de conhecer Fulano de Tal, 
-                    grande dublador brasileiro. porta 51</p><br />
+                    grande dublador brasileiro.</p><br />
                 
             </div>
             
