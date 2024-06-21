@@ -1,4 +1,4 @@
-import first from '../Images/colab1.jpg';
+import first from '../assets/images/colab1.jpg';
 
 
 export default function Team() {

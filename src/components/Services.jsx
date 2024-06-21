@@ -1,6 +1,6 @@
-import first from '../Images/prato1.jpg';
-import second from '../Images/prato1.jpg';
-import third from '../Images/prato1.jpg';
+import first from '../assets/images/prato1.jpg';
+import second from '../assets/images/prato1.jpg';
+import third from '../assets/images/prato1.jpg';
 
 
 export default function Services() {

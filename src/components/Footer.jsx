@@ -1,8 +1,8 @@
 // import React from 'react'
-import fb from '../Images/fb.png';
-import twi from '../Images/twi5.png';
-import ins from '../Images/ins1.jpg';
-import lin from '../Images/lin5.png';
+import fb from '../assets/images/fb.png';
+import twi from '../assets/images/twi5.png';
+import ins from '../assets/images/ins1.jpg';
+import lin from '../assets/images/lin5.png';
 
 export default function Footer() {
     return (

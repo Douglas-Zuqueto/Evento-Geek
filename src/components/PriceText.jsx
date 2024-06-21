@@ -1,4 +1,4 @@
-import one from '../Images/suco1.png';
+import one from '../assets/images/suco1.png';
 
 
 export default function PriceText() {
