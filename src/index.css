@@ -196,15 +196,6 @@ a:hover {
 #contact h1 {
   font-weight: 800;
 }
-#contact button {
-  background-color: #fb5353;
-  color: white;
-}
-#contact button:hover {
-  background-color: #fb5353;
-  color: aliceblue !important;
-}
-
 /* Footer */
 .myfooter {
   text-align: center;
