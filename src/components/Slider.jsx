@@ -1,11 +1,8 @@
-import logo from '../assets/images/logo.png'
 // slide página principal
 export default function Slider() {
     return (
         <div id="slider">
-            <div>
-                <img src={logo} id="sliderlogo"></img>
-            </div>
+            
             <div id="slidertext">
                 <h3>Novo evento na área!!!</h3>
                 <br />

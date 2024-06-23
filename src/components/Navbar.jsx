@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-
+import logo from '../assets/images/logo.png'
 import './Navbar.css';
 import { Link, NavLink } from 'react-router-dom';
 import Swal from 'sweetalert2';
@@ -35,16 +35,17 @@ const Navbar = () => {
                 <label htmlFor="click" className="menu-btn">
                     <i className="fas fa-bars"></i>
                     <div id="logo">
-                        <Link to="/" className='navbar-brand'><h1>Restaurant</h1></Link>
+                        <Link to="/" className='navbar-brand'><img src={logo}/><h1>Geek Tech</h1></Link>
                     </div>
                 </label>
                 <ul>
-                    <li><NavLink activeclassname="active" to="/" onClick={handleMenuItemClick}>Inicio</NavLink></li>
-                    <li><NavLink to="/about" onClick={handleMenuItemClick}>Sobre</NavLink></li>
-                    <li><NavLink to="/services" onClick={handleMenuItemClick}>Serviços</NavLink></li>
+                    <li><NavLink activeclassname="active" to="/" onClick={handleMenuItemClick}>Home</NavLink></li>
                     <li><NavLink to="/salas" onClick={handleMenuItemClick}>Salas</NavLink></li>
-                    <li><NavLink to="/team" onClick={handleMenuItemClick}>Equipe</NavLink></li>
+                    <li><NavLink to="/services" onClick={handleMenuItemClick}>Serviços</NavLink></li>
+                    <li><NavLink to="/team" onClick={handleMenuItemClick}>Regras</NavLink></li>
                     <li><NavLink to="/contact" onClick={handleMenuItemClick}>Contato</NavLink></li>
+                    <li><NavLink to="/about" onClick={handleMenuItemClick}>Curiosidades</NavLink></li>
+
                 </ul>
             </nav>
         </>
