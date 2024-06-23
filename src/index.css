@@ -265,8 +265,13 @@ padding-bottom: 30px;
 
 /* Contact */
 #contact {
-  padding-top: 40px;
-  text-align: center;
+text-align: center;
+background-image: url(./assets/images/equipe.png);
+background-repeat: no-repeat;
+background-size: cover;
+color: white;
+padding-top: 40px;
+text-align: center;
 }
 
 .contactUs {
