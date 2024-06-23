@@ -11,9 +11,9 @@ import room9 from './images/NarutoShippuden4.jpg';
 
   
   export const listaSalas = [
-      { id: 1, imageurl: room1, comp:true, name: "K-pop", price: 0o00, reward: 0o00, desc:"Entre no mundo vibrante da cultura K-pop! Nesta sala, você encontrará apresentações emocionantes, coreografias incríveis e muita música envolvente."},
+      { id: 1, imageurl: room1, comp:false, name: "K-pop", price: 0o00, reward: 0o00, desc:"Entre no mundo vibrante da cultura K-pop! Nesta sala, você encontrará apresentações emocionantes, coreografias incríveis e muita música envolvente."},
       { id: 2, imageurl: room2, comp:true, name: "Cosplay", price: 0o00, reward: 0o00, desc:"Seja quem você quiser ser! A sala de cosplay é o lugar perfeito para mostrar suas habilidades de caracterização e se misturar com outros fãs apaixonados por personagens." },
-      { id: 3, imageurl: room3, comp:true, name: "Estandes de vendas", price: 0o00, reward: 0o00, desc:"Explore uma variedade de estandes repletos de mercadorias exclusivas. De camisetas a colecionáveis, você encontrará algo especial para levar para casa." },
+      { id: 3, imageurl: room3, comp:false, name: "Estandes de vendas", price: 0o00, reward: 0o00, desc:"Explore uma variedade de estandes repletos de mercadorias exclusivas. De camisetas a colecionáveis, você encontrará algo especial para levar para casa." },
       { id: 4, imageurl: room4, comp:true, name: "Arena", price: 0o00, reward: 0o00, desc:"Prepare-se para a batalha! A sala da arena é onde os competidores se enfrentam em torneios emocionantes. Quem sairá vitorioso?" },
       { id: 5, imageurl: room5, comp:true, name: "League of Legends", price: "R$20,00", reward: "R$2500,00", desc:"Entre no universo épico de League of Legends! Desafie seus amigos para partidas intensas, aprimore suas habilidades e lute pelo prêmio em dinheiro." },
       { id: 6, imageurl: room6, comp:true, name: "Valorant", price: "R$20,00", reward: "R$2500,00", desc:"Seja tático, seja estratégico! Em Valorant, você enfrentará adversários em partidas de tiro em equipe. Quem será o melhor agente?" },
