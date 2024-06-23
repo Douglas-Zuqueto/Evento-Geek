@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import Swal from 'sweetalert2';
-
 export default function SalaText(props) {
 
   const [modal, setModal] = useState(false);

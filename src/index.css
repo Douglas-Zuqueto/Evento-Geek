@@ -239,6 +239,19 @@ padding-bottom: 30px;
   width: 100%;
   height: 200px;
 }
+#videoE {
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+#videoE video {
+    max-width: 100%;
+    height: auto;
+}
 
 /* Rules */
 
@@ -305,13 +318,17 @@ text-align: center;
 }
 /* Footer */
 .myfooter {
-  text-align: center;
-  width: 100%;
+  text-align: center; 
+  width: 100%; 
   background-color: black;
-  float: left;
+  display: flex; 
+  justify-content: space-around; 
+  align-items: flex-start; 
+  flex-wrap: wrap; 
+  color: white; 
 }
 
-.myfooter .card {
+.myfooter .cardfooter {
   display: inline-block;
   text-align: center;
   border: 0px none white !important;
@@ -571,4 +588,5 @@ text-align: center;
     text-align: center;
     margin: 90px auto 0px auto;
   }
+
 }
