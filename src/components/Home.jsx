@@ -2,7 +2,7 @@
 import Contact from './Contact';
 import Team from './Team';
 import Salas from './Salas';
-import Services from './Services';
+import Guest from './Guest';
 import Slider from './Slider';
 import About from './About';
 
@@ -11,7 +11,7 @@ export default function Home() {
         <div>
             <Slider />
             <About />
-            <Services />
+            <Guest />
             <Salas />
             <Team />
             <Contact />
