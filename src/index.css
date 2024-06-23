@@ -330,8 +330,14 @@ justify-content: space-around;
   background-color: black;
   float: left;
 }
+<<<<<<< HEAD
 .myfooter .card {
   display: inline-flex;
+=======
+
+.myfooter .cardfooter {
+  display: inline-block;
+>>>>>>> 9dd4333a60ca20d9cbdbcf018a5182a6634c2c22
   text-align: center;
   border: 0px none white !important;
   background-color: black;
