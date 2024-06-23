@@ -2,7 +2,7 @@ import img1 from '../assets/images/nickyIcon.jpg'
 import img2 from '../assets/images/viviIcon.jpg'
 import img3 from '../assets/images/luanaIcon.jpg'
 import img4 from '../assets/images/kauaIcon.png'
-import img5 from '../assets/images/avatar douglas.png'
+import img5 from '../assets/images/Douglas.png'
 
 import animelogo1 from '../assets/images/animeuaiLogo.webp'
 import animelogo2 from '../assets/images/gifLogo.jpg'
@@ -25,11 +25,11 @@ export default function Contact() {
                 <div className="contactUs">
                     <h1>Equipe Produtora</h1><br />
                     <div className='cardEquipe'>
-                    <img src={img1} id='equipeFoto3'/>
-                    <img src={img2} id='equipeFoto1'/>
-                    <img src={img3} className='equipeFoto'/>
-                    <img src={img4} id='equipeFoto2'/>
-                    <img src={img5} className='equipeFoto'/>
+                    <img src={img1} className='equipeFoto1'/>
+                    <img src={img2} className='equipeFoto2'/>
+                    <img src={img3} className='equipeFoto3'/>
+                    <img src={img4} className='equipeFoto4'/>
+                    <img src={img5} className='equipeFoto5'/>
                     </div>
                     <div className='tagName'>
                     <p>Nicky</p>

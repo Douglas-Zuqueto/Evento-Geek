@@ -2,24 +2,30 @@
     width: 10rem;
     height: 10rem;
 }
-#equipeFoto1{
+.equipeFoto1{
     width: 7.5rem;
     height: 10rem;
 }
-#equipeFoto2{
+.equipeFoto2{
     width: 9rem;
     height: 10rem;
 }
-#equipeFoto3{
+.equipeFoto3{
     width: 7.6rem;
     height: 10rem;
 }
+.equipeFoto5{
+    width: 10px;
+    height: 20px;}
+
+
+
 .cardEquipe{
     display: flex;
     justify-content: center;
     flex-direction: row;
     align-content: center;
-    padding-bottom: 1.5rem;
+    padding-bottom: 1rem;
     gap: 0;
 }
 .cardLogo{
