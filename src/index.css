@@ -170,6 +170,10 @@ a:hover {
 /* Salas */
 .modal-content {
   background-image: url(./assets/images/fundosala.png);
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  background-size: cover;
+  color: white;
   padding: 0px 4px !important;
   display: flex;
   height: 500px;
