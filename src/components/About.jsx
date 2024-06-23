@@ -1,10 +1,12 @@
 import protas from '../assets/images/protagonistas.jpg'
+import anime from '../assets/images/animes.jpg'
 
 export default function About() {
     return (
         <div id="about">
             <div >
                 <img src={protas} id="aboutImg"/>
+                <img src={anime} className="aboutImg"/>
             </div>
             <div id="aboutText">
                 <h4 id="aboutHeading">Querem conhecer mais sobre nós?</h4>

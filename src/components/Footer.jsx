@@ -18,7 +18,7 @@ export default function Footer() {
                 <br />
                 <div className="card-body">
                     <h3 className="card-title">Sobre Nós</h3>
-                    <p className="text">Somos o mais novo evento que chegará para animar Cataguases e região! Como amantes da cultura Geek queremos disponibilizar mais oportunidades para que outros fãs possam aproveitar mais esses tipos de eventos</p>
+                    <p className="text">Somos o mais novo evento que chegará para animar Cataguases e região! Como amantes da cultura Geek queremos disponibilizar mais oportunidades para que outros fãs possam aproveitar mais desse mundo incrível.</p>
                     <img src={fb}  alt="social media" style={estilo}/>
                     <img src={twi} alt="social media" style={estilo}/>
                     <img src={ins} alt="social media" style={estilo}/>
@@ -27,7 +27,6 @@ export default function Footer() {
             </div>
 
             <div className="card">
-                <br />
                 <div className="card-body">
                     <h3 className="card-title">Data do Evento</h3>
                     <p className="text">Próximo Evento: 25 de Dezembro de 2024, 12:00 BRT</p>
@@ -36,18 +35,17 @@ export default function Footer() {
             </div>
 
             <div className="card">
-                <br />
                 <div className="card-body">
                     <h3 className="card-title">Contato</h3>
-                    <p className="text">Endereço: Rua Principal, Centro</p>
-                    <p className="text">Tel: 03943247810</p>
+                    <p className="text">Endereço: Rua dos Animes, 13 - Centro -  Cataguases/Mg</p>
+                    <p className="text">Tel: (32)4324-7810</p>
                     <p className="text">Email: geektech@gmail.com</p>
                 </div>
             </div>
 
             <div><br /><br />
-                <p id="rights">Todos os direitos reservados | Geek Tech</p>
-                <p id="disclaimer">*Este site foi feito exclusivamente para fins de estudo.</p>
+                <p id="rights">Todos os direitos reservados | Geek Tech | Junho - 2024</p>
+                <p id="disclaimer">*Este site é exclusivo para fins educacionais.</p>
             </div>
 
         </div>
