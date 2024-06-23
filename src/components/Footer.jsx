@@ -14,7 +14,7 @@ export default function Footer() {
 
     return (
         <div id="footer" className="myfooter">
-            <div className="cardfooter">
+            <div className="card">
                 <br />
                 <div className="card-body">
                     <h3 className="card-title">Sobre Nós</h3>
@@ -27,10 +27,6 @@ export default function Footer() {
             </div>
 
             <div className="card">
-
-            <div className="cardfooter">
-                <br />
-
                 <div className="card-body">
                     <h3 className="card-title">Data do Evento</h3>
                     <p className="text">Próximo Evento: 25 de Dezembro de 2024, 12:00 BRT</p>
@@ -38,12 +34,7 @@ export default function Footer() {
                 </div>
             </div>
 
-
             <div className="card">
-
-            <div className="cardfooter">
-                <br />
-
                 <div className="card-body">
                     <h3 className="card-title">Contato</h3>
                     <p className="text">Endereço: Rua dos Animes, 13 - Centro -  Cataguases/Mg</p>
