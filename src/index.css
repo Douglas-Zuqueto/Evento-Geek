@@ -171,7 +171,7 @@ a:hover {
 .modal-content {
   padding: 0px 4px !important;
   display: flex;
-  height: 500px;
+  height: 480px;
 }
 
 .modal-text{
@@ -201,8 +201,13 @@ a:hover {
 }
 
 #price {
-  text-align: center;
-  padding-bottom: 30px;
+background-image: url(./assets/images/fundosala.png);
+background-repeat: no-repeat;
+min-height: 100vh;
+background-size: cover;
+color: white;
+text-align: center;
+padding-bottom: 30px;
 }
 #price h1 {
   line-height: inherit !important;
@@ -355,7 +360,7 @@ a:hover {
 @media only screen and (max-width: 1200px) {
   #logo {
     float: left;
-    width: 20%;
+    width: 50%;
     text-align: center;
   }
 
