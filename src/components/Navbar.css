@@ -404,7 +404,7 @@ body.active-modal {
   display: inline-block;
 }
 
-#sliderlogo {
+#navbarlogo {
   display: flex;
   gap: 10px
 }
