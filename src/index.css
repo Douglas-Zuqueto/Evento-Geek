@@ -171,7 +171,7 @@ a:hover {
 .modal-content {
   padding: 0px 4px !important;
   display: flex;
-  height: fit-content;
+  height: 480px;
 }
 
 .modal-text{
@@ -185,7 +185,15 @@ a:hover {
   display: inline-flex;
   padding: 0px 10px !important;
   justify-content: center;
+  margin-left: 5px;
 }
+
+.inp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #same.in {
   display: flex;
   left: 0;

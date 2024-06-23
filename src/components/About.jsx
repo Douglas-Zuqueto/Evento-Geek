@@ -10,7 +10,7 @@ export default function About() {
                 <h4 id="aboutHeading">Querem conhecer mais sobre nós?</h4>
                 <br />
                 <p>Somos o mais novo evento que chegará para animar Cataguases e região! 
-                    Como amantes da cultura Geek quermos disponibilizar mais oportunidades para que outros 
+                    Como amantes da cultura Geek queremos disponibilizar mais oportunidades para que outros 
                     fãs possam aproveitar mais esses tipos de eventos, pois na região existem poucos.</p>
                 <br />
                 <p>Decidimos então criar pelo menos mais um evento para tirar aquele gostinho de quero mais que 

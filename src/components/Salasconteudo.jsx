@@ -71,54 +71,54 @@ export default function SalaText(props) {
             <h2 className="h1-1">GEEK TECH</h2>
             <p className="p-l-1">Cultura Geek</p>
 
-          <div className="modal-text">
-            <div>
-            {props.price == 0
-                ?<h2>Venha se divertir!</h2>
-                : <h2>Participe do Torneio</h2>}
-            </div>
-
-            <div>
-              {props.desc}
-            </div>
-
-            <div>
+            <div className="modal-text">
+              <div>
               {props.price == 0
-                ? <p><br/>(Apenas o custo de entrada do evento).</p>
-                : <p><br/>A assinatura custa R${props.price}, assine e batalhe por R${props.reward} contra seus oponentes com sede de sangue.</p>}
-            </div>
+                  ?<h2>Venha se divertir!</h2>
+                  : <h2>Participe do Torneio</h2>}
+              </div>
 
-            <div>
-              <p>
-                Quer participar? Nos envie seu e-mail.
-              </p>
-            </div>
+              <div>
+                {props.desc}
+              </div>
 
-            <form onSubmit={handleFormSubmit}>
-              <input
-                className="inp"
-                type="email"
-                required
-                placeholder="Seu Email"
-              />
+              <div>
+                {props.price == 0
+                  ? <p><br/>(Apenas o custo de entrada do evento).</p>
+                  : <p><br/>A assinatura custa R${props.price}, assine e batalhe por R${props.reward} contra seus oponentes com sede de sangue.</p>}
+              </div>
 
-              <span>
+              <div>
                 <p>
-                  <input id="same" type="checkbox" required className="in" />
-                  <label htmlFor="same">
-                    Eu declaro que sou maior de 18 anos e estou ciente das minhas responsabilidades financeiras. Comprometo-me a gastar o dinheiro com sabedoria, controlar minhas despesas e buscar um equilíbrio financeiro saudável. Entendo que a disciplina e a organização nas questões financeiras são essenciais para garantir um futuro melhor.
-                  </label>
+                  Quer participar? Nos envie seu e-mail.
                 </p>
-              </span>
-              <button className="btn-pr" type="submit">
-                Enviar
-              </button>
-            </form>
-            <button className="close-modal"  onClick={toggleModal}>
-              &times;
-            </button>
-          </div>
-          </div>
+              </div>
+
+              <form onSubmit={handleFormSubmit}>
+                <input
+                  className="inp"
+                  type="email"
+                  required
+                  placeholder="Seu Email"
+                />
+
+                <span>
+                  <p>
+                    <input id="same" type="checkbox" required className="in" />
+                    <label htmlFor="same">
+                      Eu declaro que sou maior de 18 anos e estou ciente das minhas responsabilidades financeiras. Comprometo-me a gastar o dinheiro com sabedoria, controlar minhas despesas e buscar um equilíbrio financeiro saudável. Entendo que a disciplina e a organização nas questões financeiras são essenciais para garantir um futuro melhor.
+                    </label>
+                  </p>
+                </span>
+                <button className="btn-pr" type="submit">
+                  Enviar
+                </button>
+              </form>
+                <button className="close-modal"  onClick={toggleModal}>
+                &times;
+                </button>
+              </div>
+            </div>
         </div>
       )}
     </div>
