@@ -16,7 +16,7 @@ export default function Slider() {
 
             <div id="slidervideo">
                 <iframe width="560" height="315" src="https://animeuai.com.br/wp-content/uploads/2024/06/ANIME-UAI-TV.mp4" 
-                title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; 
+                title="YouTube video player" frameBorder="0" allow="accelerometer; clipboard-write; 
                 encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" 
                 allowFullScreen></iframe>
             </div>

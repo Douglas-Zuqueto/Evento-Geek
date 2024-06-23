@@ -25,11 +25,11 @@ export default function Contact() {
                 <div className="contactUs">
                     <h1>Equipe Produtora</h1><br />
                     <div className='cardEquipe'>
-                    <a href='' target="_blank"><img src={img1} className='equipeFoto1'/></a>
+                    <a href='https://www.linkedin.com/in/nycholas-ferreira-de-freitas-rocha-3b302325b/' target="_blank"><img src={img1} className='equipeFoto1'/></a>
                     <a href='https://www.linkedin.com/in/viviane-santos-a6a69127b' target="_blank"><img src={img2} className='equipeFoto2'/></a>
-                    <a href='' target="_blank"><img src={img3} className='equipeFoto3'/></a>
+                    <a href='https://www.linkedin.com/in/luana-silva-de-sousa-2186992a2/' target="_blank"><img src={img3} className='equipeFoto3'/></a>
                     <a href='https://www.linkedin.com/in/kau%C3%A3-souza-400758101/' target="_blank"><img src={img4} className='equipeFoto4'/></a>
-                    <a href='' target="_blank"><img src={img5} className='equipeFoto5'/></a>
+                    <a href='https://www.linkedin.com/in/douglas-bulho-zuqueto-103529293/' target="_blank"><img src={img5} className='equipeFoto5'/></a>
                     </div>
                     <div className='tagName'>
                     <p>Nicky</p>

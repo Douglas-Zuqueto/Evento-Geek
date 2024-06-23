@@ -259,8 +259,10 @@ padding-bottom: 30px;
 
 #rules .title2 {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  text-align: center;
   font-size: 3.5rem;
   margin: 30px 100px 20px 100px;
   padding: 10px;

@@ -100,6 +100,7 @@ export default function Rules() {
                         não esteja de acordo com as normas do evento, devolvendo ao proprietário apenas no momento 
                         que o mesmo deixar o evento, zelando assim pela segurança de todos os frequentadores.</li>
             </ol>
+            <br />
         </div>
     )
 }
