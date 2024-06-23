@@ -2,7 +2,7 @@
 #slider {
   display: flex;
   flex-direction: column;
-  background-image: url(./assets/images/banner_bg_1.png);
+  background-image: url(./assets/images/fundotela.png);
   /* background-repeat: no-repeat; */
   min-height: 130vh;
   background-size: cover;
