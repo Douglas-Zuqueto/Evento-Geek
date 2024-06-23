@@ -2,14 +2,22 @@
     width: 10rem;
     height: 10rem;
 }
-.cardEq{
+#equipeFoto1{
+    width: 13rem;
+    height: 10rem;
+}
+#equipeFoto2{
+    width: 8rem;
+    height: 10rem;
+}
+.cardEquipe{
     display: flex;
     justify-content: center;
     flex-direction: row;
     align-content: center;
     padding-bottom: 1.5rem;
 }
-.cardLg {
+.cardLogo{
     display: grid;
     grid-template-columns: repeat(5, 1fr); 
     grid-template-rows: auto auto; 
