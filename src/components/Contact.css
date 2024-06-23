@@ -3,11 +3,11 @@
     height: 10rem;
 }
 #equipeFoto1{
-    width: 8rem;
+    width: 7.5rem;
     height: 10rem;
 }
 #equipeFoto2{
-    width: 8rem;
+    width: 9rem;
     height: 10rem;
 }
 #equipeFoto3{
@@ -36,6 +36,4 @@
     justify-content: space-around;
     gap: 5rem;
     font-weight: bold;
-    border: 1000px;
-
 }

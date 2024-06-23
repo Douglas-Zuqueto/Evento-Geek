@@ -1,8 +1,15 @@
+<<<<<<< HEAD
+=======
 
+>>>>>>> main
 // slide página principal
 export default function Slider() {
     return (
         <div id="slider">
+<<<<<<< HEAD
+            
+=======
+>>>>>>> main
             <div id="slidertext">
                 <h3>Novo evento na área!!!</h3>
                 <br />
