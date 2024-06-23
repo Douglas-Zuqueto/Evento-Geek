@@ -15,7 +15,7 @@ export default function Slider() {
             </div>
 
             <div id="slidervideo">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/GASH_Abor5Q?si=Ry295CFEwKsDsG2n" 
+                <iframe width="560" height="315" src="https://animeuai.com.br/wp-content/uploads/2024/06/ANIME-UAI-TV.mp4" 
                 title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; 
                 encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" 
                 allowFullScreen></iframe>

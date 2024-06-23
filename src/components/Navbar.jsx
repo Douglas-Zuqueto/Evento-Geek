@@ -35,7 +35,7 @@ const Navbar = () => {
                     <i className="fas fa-bars"></i>
                     <div id="logo">
                     
-                        <Link to="/" className='navbar-brand' id='sliderlogo'><img src={logo} /><h1>Geek Tech</h1></Link>
+                        <Link to="/" className='navbar-brand' id='navbarlogo'><img src={logo} /><h1>Geek Tech</h1></Link>
                     </div>
                 </label>
                 <ul>
