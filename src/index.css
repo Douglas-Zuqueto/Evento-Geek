@@ -2,7 +2,7 @@
 #slider {
   display: flex;
   flex-direction: column;
-  background-image: url(./assets/images/Fundo de tela.png);
+  background-image: url(./assets/images/fundotela.png);
   /* background-repeat: no-repeat; */
   min-height: 130vh;
   background-size: cover;
@@ -159,7 +159,7 @@ a:hover {
 /* Team */
 #team {
   text-align: center;
-  background-image: url(./assets/images/Fundo\ de\ tela.png);
+  background-image: url(./assets/images/fundotela.png);
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
