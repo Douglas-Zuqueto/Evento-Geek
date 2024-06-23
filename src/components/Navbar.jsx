@@ -35,7 +35,8 @@ const Navbar = () => {
                 <label htmlFor="click" className="menu-btn">
                     <i className="fas fa-bars"></i>
                     <div id="logo">
-                        <Link to="/" className='navbar-brand'><img src={logo}/><h1>Geek Tech</h1></Link>
+                    
+                        <Link to="/" className='navbar-brand'><img src={logo} id='sliderlogo'></img><h1>Geek Tech</h1></Link>
                     </div>
                 </label>
                 <ul>
