@@ -293,6 +293,11 @@ a:hover {
 #rights {
   text-align: center;
   color: white;
+  margin-bottom: 10px;
+}
+#disclaimer { 
+  text-align: center;
+  color: white;
 }
 
 .myfooter img {
