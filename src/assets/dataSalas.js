@@ -1,8 +1,8 @@
 /*Importações de imagens*/
-import room1 from './images/Kpop.jpg';
+import room1 from './images/Kpop.webp';
 import room2 from './images/Cosplay.jpg';
 import room3 from './images/Estande.jpg';
-import room4 from './images/medieval.jpg';
+import room4 from './images/arena.png';
 import room5 from './images/League_of_legends.jpg';
 import room6 from './images/Valorant.jpg';
 import room7 from './images/Rocket_League.jpg';
