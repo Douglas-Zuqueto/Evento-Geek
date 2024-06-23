@@ -26,12 +26,11 @@ export default function Footer() {
                 </div>
             </div>
 
-<<<<<<< HEAD
             <div className="card">
-=======
+
             <div className="cardfooter">
                 <br />
->>>>>>> 9dd4333a60ca20d9cbdbcf018a5182a6634c2c22
+
                 <div className="card-body">
                     <h3 className="card-title">Data do Evento</h3>
                     <p className="text">Próximo Evento: 25 de Dezembro de 2024, 12:00 BRT</p>
@@ -39,12 +38,12 @@ export default function Footer() {
                 </div>
             </div>
 
-<<<<<<< HEAD
+
             <div className="card">
-=======
+
             <div className="cardfooter">
                 <br />
->>>>>>> 9dd4333a60ca20d9cbdbcf018a5182a6634c2c22
+
                 <div className="card-body">
                     <h3 className="card-title">Contato</h3>
                     <p className="text">Endereço: Rua dos Animes, 13 - Centro -  Cataguases/Mg</p>
