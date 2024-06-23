@@ -134,6 +134,30 @@ a:hover {
 }
 
 /* Price */
+.modal-content {
+  padding: 0px 4px !important;
+  display: flex;
+  height: fit-content;
+}
+
+.modal-text{
+  overflow-y: visible;
+  justify-content: center;
+  
+}
+
+.modal-text label{
+  font-weight: 600;
+  display: inline-flex;
+  padding: 0px 10px !important;
+  justify-content: center;
+}
+#same.in {
+  display: flex;
+  left: 0;
+  padding: 4px;
+}
+
 #price {
   text-align: center;
   padding-bottom: 30px;
@@ -230,6 +254,29 @@ a:hover {
   height: 50px;
   width: 50px;
 }
+
+/* Barra de Rolagem */
+
+::-webkit-scrollbar {
+  width: 0.5vw;
+}
+::-webkit-scrollbar-track {
+ background: transparent !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #6d07e2;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ff0000;
+}
+
+::-webkit-scrollbar:active {
+  background: #868383;
+}
+
 
 /* Dispositivos extragrandes (laptops e desktops grandes, 1201px e superiores) */
 @media only screen and (min-width: 1201px) {

@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react';
 import logo from '../assets/images/logo.png'
 import './Navbar.css';
 import { Link, NavLink } from 'react-router-dom';
-import Swal from 'sweetalert2';
 
 
 const Navbar = () => {
