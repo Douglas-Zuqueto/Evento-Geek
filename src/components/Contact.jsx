@@ -1,7 +1,7 @@
 import img1 from '../assets/images/nickyIcon.jpg'
 import img2 from '../assets/images/viviIcon.jpg'
 import img3 from '../assets/images/luanaIcon.jpg'
-import img4 from '../assets/images/kauaIcon.jpg'
+import img4 from '../assets/images/kauaIcon.png'
 import img5 from '../assets/images/avatar douglas.png'
 
 import animelogo1 from '../assets/images/animeuaiLogo.webp'
