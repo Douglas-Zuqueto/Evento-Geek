@@ -8,6 +8,7 @@ import Salas from './components/Salas';
 import Services from './components/Services';
 import Team from './components/Team';
 import Navbar from './components/Navbar';
+import Estandes from './components/infoSalas/Estandes';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/salas" element={<Salas />} />
           <Route path="/team" element={<Team />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/stand" element={<Estandes />} />
         </Routes>
         <Footer />
       </BrowserRouter>

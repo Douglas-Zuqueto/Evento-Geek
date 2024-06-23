@@ -4,7 +4,7 @@ import { listaSalas } from '../assets/dataSalas.js';
 
 export default function montSalas() {
 
-    const Sala = listaSalas.map((salaCont)=> <Salas key={salaCont.id} name={salaCont.name} url={salaCont.imageurl} price={salaCont.price} reward={salaCont.reward} desc={salaCont.desc}/>);
+    const Sala = listaSalas.map((salaCont)=> <Salas key={salaCont.id} name={salaCont.name} url={salaCont.imageurl} price={salaCont.price} reward={salaCont.reward} desc={salaCont.desc} comp={salaCont.comp}/>);
 
     return (
         <div id="price" >

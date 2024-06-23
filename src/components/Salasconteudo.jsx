@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react";
+import Swal from 'sweetalert2';
 
 export default function SalaText(props) {
+
   const [modal, setModal] = useState(false);
   if (modal) {
     document.body.classList.add("active-modal");
@@ -56,7 +58,7 @@ export default function SalaText(props) {
           <div className="card-body">
             <h2 className="card-title">{props.name}</h2>
             <button className="btn btn-signup hide" onClick={toggleModal}>
-              Saiba mais
+            Saiba mais
             </button>
           </div>
         </div>
@@ -69,6 +71,7 @@ export default function SalaText(props) {
             <h2 className="h1-1">GEEK TECH</h2>
             <p className="p-l-1">Cultura Geek</p>
 
+          <div className="modal-text">
             <div>
             {props.price == 0
                 ?<h2>Venha se divertir!</h2>
@@ -76,9 +79,19 @@ export default function SalaText(props) {
             </div>
 
             <div>
+              {props.desc}
+            </div>
+
+            <div>
               {props.price == 0
-                ? <p>{props.desc}(Apenas o custo de entrada do evento).</p>
-                : <p>A assinatura custa R${props.price}, assine e batalhe por R${props.reward} contra seus oponentes com sede de sangue.</p>}
+                ? <p><br/>(Apenas o custo de entrada do evento).</p>
+                : <p><br/>A assinatura custa R${props.price}, assine e batalhe por R${props.reward} contra seus oponentes com sede de sangue.</p>}
+            </div>
+
+            <div>
+              <p>
+                Quer participar? Nos envie seu e-mail.
+              </p>
             </div>
 
             <form onSubmit={handleFormSubmit}>
@@ -91,10 +104,8 @@ export default function SalaText(props) {
 
               <span>
                 <p>
-                  {" "}
                   <input id="same" type="checkbox" required className="in" />
                   <label htmlFor="same">
-                    {" "}
                     Eu declaro que sou maior de 18 anos e estou ciente das minhas responsabilidades financeiras. Comprometo-me a gastar o dinheiro com sabedoria, controlar minhas despesas e buscar um equilíbrio financeiro saudável. Entendo que a disciplina e a organização nas questões financeiras são essenciais para garantir um futuro melhor.
                   </label>
                 </p>
@@ -106,6 +117,7 @@ export default function SalaText(props) {
             <button className="close-modal"  onClick={toggleModal}>
               &times;
             </button>
+          </div>
           </div>
         </div>
       )}
