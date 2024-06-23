@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-
+import logo from '../assets/images/logo.png'
 import './Navbar.css';
 import { Link, NavLink } from 'react-router-dom';
 import Swal from 'sweetalert2';
@@ -35,7 +35,8 @@ const Navbar = () => {
                 <label htmlFor="click" className="menu-btn">
                     <i className="fas fa-bars"></i>
                     <div id="logo">
-                        <Link to="/" className='navbar-brand'><h1>Restaurant</h1></Link>
+                    
+                        <Link to="/" className='navbar-brand'><img src={logo} id='sliderlogo'></img><h1>Geek Tech</h1></Link>
                     </div>
                 </label>
                 <ul>
