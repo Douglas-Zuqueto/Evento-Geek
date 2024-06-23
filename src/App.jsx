@@ -6,7 +6,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Salas from './components/Salas';
 import Guest from './components/Guest';
-import Team from './components/Team';
+import Rules from './components/Rules';
 import Navbar from './components/Navbar';
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/guest" element={<Guest />} />
           <Route path="/salas" element={<Salas />} />
-          <Route path="/team" element={<Team />} />
+          <Route path="/rules" element={<Rules />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />

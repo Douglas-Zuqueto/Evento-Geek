@@ -50,15 +50,15 @@ export default function SalaText(props) {
 
   return (
     <div className="card">
-      <div className="row no-gutters">
-        <div className="col">
+      <div className="col no-gutters">
+        <div className="row">
           <img src={props.url} alt="pic" className="card-img" />
         </div>
-        <div className="col">
+        <div className="row">
           <div className="card-body">
             <h2 className="card-title">{props.name}</h2>
             <button className="btn btn-signup hide" onClick={toggleModal}>
-            Saiba mais
+              Saiba mais
             </button>
           </div>
         </div>

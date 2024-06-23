@@ -1,6 +1,6 @@
 
 import Contact from './Contact';
-import Team from './Team';
+import Rules from './Rules';
 import Salas from './Salas';
 import Guest from './Guest';
 import Slider from './Slider';
@@ -13,7 +13,7 @@ export default function Home() {
             <About />
             <Guest />
             <Salas />
-            <Team />
+            <Rules />
             <Contact />
         </div>
     )

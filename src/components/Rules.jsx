@@ -1,7 +1,7 @@
 import first from '../assets/images/colab1.jpg';
 
 
-export default function Team() {
+export default function Rules() {
     return (
         <div id="team"><br />
             <h1>Melhor Equipe</h1>
