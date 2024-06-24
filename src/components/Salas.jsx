@@ -1,7 +1,7 @@
 import React from 'react';
 import Salas from './Salasconteudo';
 import { listaSalas } from '../assets/dataSalas.js';
-import video from '../assets/images/videoEvento (2).mp4';
+import video from '../assets/images/videoEvento (3).mp4';
 const MontSalas = () => {
     const Sala = listaSalas.map((salaCont) => (
         <Salas 
