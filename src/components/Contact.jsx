@@ -1,7 +1,7 @@
 import img1 from '../assets/images/nick.png'
 import img2 from '../assets/images/vivi.png'
 import img3 from '../assets/images/luana.png'
-import img4 from '../assets/images/kauaIcon.png'
+import img4 from '../assets/images/kaua.png'
 import img5 from '../assets/images/Douglas.png'
 
 import animelogo1 from '../assets/images/animeuaiLogo.webp'
@@ -38,6 +38,8 @@ export default function Contact() {
                     <p>Kauã</p>
                     <p>Douglas</p>
                     </div>
+                    <br />
+                    <br />
                     <h1>Patrocinadores</h1><br />
                     <div className='cardLogo'>
                     <img src={animelogo1} className='logoimg'/>
