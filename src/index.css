@@ -174,7 +174,7 @@ margin-bottom: 1rem;
   justify-content: center;
   align-items: center;
   width: 150px;
-  height: 150px;
+  height: 110px;
   border-radius: 50%;
   margin-bottom: 1rem;
 }
@@ -265,6 +265,7 @@ padding-bottom: 30px;
     justify-content: center;
     align-items: center;
     height: 50vh;
+    margin-top: 40px;
 }
 
 #videoE video {

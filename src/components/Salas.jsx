@@ -16,19 +16,17 @@ const MontSalas = () => {
     ));
 
     return (
-        <>
             <div id="price">
                 <h1>Procura Diversão?</h1>
                 <h4>Escolha uma e venha fazer parte desta experiência</h4>
                 {Sala}
+                <div id="videoE">
+                    <video autoPlay loop muted width={500} >
+                        <source src={video} type="video/mp4" />
+                        Seu navegador não suporta o elemento de vídeo.
+                    </video>
+                </div>
             </div>
-            <div id="videoE">
-                <video autoPlay loop muted width={500} >
-                    <source src={video} type="video/mp4" />
-                    Seu navegador não suporta o elemento de vídeo.
-                </video>
-            </div>
-        </>
     );
 }
 
