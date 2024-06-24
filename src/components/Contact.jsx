@@ -1,19 +1,19 @@
-import img1 from "../assets/images/nick.png";
-import img2 from "../assets/images/vivi.png";
-import img3 from "../assets/images/luana.png";
-import img4 from "../assets/images/kaua.png";
-import img5 from "../assets/images/Douglas.png";
+import img1 from "../assets/midia/nick.png";
+import img2 from "../assets/midia/vivi.png";
+import img3 from "../assets/midia/luana.png";
+import img4 from "../assets/midia/kaua.png";
+import img5 from "../assets/midia/Douglas.png";
 
-import animelogo1 from "../assets/images/animeuaiLogo.webp";
-import animelogo2 from "../assets/images/gif.png";
-import animelogo3 from "../assets/images/panini.png";
-import animelogo4 from "../assets/images/nintendo.png";
-import animelogo5 from "../assets/images/netflix.png";
-import animelogo6 from "../assets/images/cacau.png";
-import animelogo7 from "../assets/images/nu.png";
-import animelogo8 from "../assets/images/pocky.png";
-import animelogo9 from "../assets/images/hot.png";
-import animelogo10 from "../assets/images/play.png";
+import animelogo1 from "../assets/midia/animeuaiLogo.webp";
+import animelogo2 from "../assets/midia/gif.png";
+import animelogo3 from "../assets/midia/panini.png";
+import animelogo4 from "../assets/midia/nintendo.png";
+import animelogo5 from "../assets/midia/netflix.png";
+import animelogo6 from "../assets/midia/cacau.png";
+import animelogo7 from "../assets/midia/nu.png";
+import animelogo8 from "../assets/midia/pocky.png";
+import animelogo9 from "../assets/midia/hot.png";
+import animelogo10 from "../assets/midia/play.png";
 
 import "./Contact.css";
 

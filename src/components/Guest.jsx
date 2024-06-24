@@ -1,11 +1,11 @@
-import invited from "../assets/images/convid.png";
-import dub1 from "../assets/images/mewtwo.png";
-import dub2 from "../assets/images/optimus.jpg";
-import dub3 from "../assets/images/cosmo.png";
-import dub4 from "../assets/images/brook.jpg";
-import dub5 from "../assets/images/reijulian.jpg";
-import dub6 from "../assets/images/sman.webp";
-import dub7 from "../assets/images/freakazoid.jpg";
+import invited from "../assets/midia/convid.png";
+import dub1 from "../assets/midia/mewtwo.png";
+import dub2 from "../assets/midia/optimus.jpg";
+import dub3 from "../assets/midia/cosmo.png";
+import dub4 from "../assets/midia/brook.jpg";
+import dub5 from "../assets/midia/reijulian.jpg";
+import dub6 from "../assets/midia/sman.webp";
+import dub7 from "../assets/midia/freakazoid.jpg";
 
 export default function Guest() {
   return (

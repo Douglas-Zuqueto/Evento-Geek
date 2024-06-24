@@ -2,7 +2,7 @@
 #slider {
   display: grid;
   grid-template-columns: auto auto;
-  background-image: url(./assets/images/fundotela.png);
+  background-image: url(./assets/midia/fundotela.png);
   background-repeat: no-repeat;
   min-height: 100vh;
   background-size: cover;
@@ -58,7 +58,7 @@ a:hover {
   position: relative;
   text-align: center;
   justify-content: space-between;
-  background-image: url(./assets/images/fundosobre.png);
+  background-image: url(./assets/midia/fundosobre.png);
   background-repeat: no-repeat;
   min-height: 100vh;
   background-size: cover;
@@ -74,7 +74,7 @@ a:hover {
 #aboutImg {
   width: 450px;
   height: 300px;
-  background-image: url(./assets/images/about.jpg);
+  background-image: url(./assets/midia/about.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 margin-bottom: 1rem;
@@ -82,7 +82,7 @@ margin-bottom: 1rem;
 .aboutImg {
   width: 450px;
   height: 300px;
-  background-image: url(./assets/images/animes.jpg);
+  background-image: url(./assets/midia/animes.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -100,7 +100,7 @@ margin-bottom: 1rem;
 /* Guest */
 
 #guest {
-  background-image: url(./assets/images/convidado.png);
+  background-image: url(./assets/midia/convidado.png);
   background-repeat: no-repeat;
   min-height: 100vh;
   background-size: cover;
@@ -227,7 +227,7 @@ margin-bottom: 1rem;
 }
 
 #price {
-background-image: url(./assets/images/fundosala.png);
+background-image: url(./assets/midia/fundosala.png);
 background-repeat: no-repeat;
 min-height: 100vh;
 background-size: cover;
@@ -281,7 +281,7 @@ padding-bottom: 30px;
 /* Rules */
 
 #rules {
-  background: url(./assets/images/fundotela.png);
+  background: url(./assets/midia/fundotela.png);
   background-size: fill;
   color: white;
 }
@@ -325,7 +325,7 @@ padding-bottom: 30px;
 /* Contact */
 #contact {
 text-align: center;
-background-image: url(./assets/images/equipe.png);
+background-image: url(./assets/midia/equipe.png);
 background-repeat: no-repeat;
 background-size: cover;
 color: white;

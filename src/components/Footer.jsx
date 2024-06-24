@@ -1,7 +1,7 @@
-import fb from "../assets/images/fb.png";
-import twi from "../assets/images/twi5.png";
-import ins from "../assets/images/ins1.jpg";
-import lin from "../assets/images/lin5.png";
+import fb from "../assets/midia/fb.png";
+import twi from "../assets/midia/twi5.png";
+import ins from "../assets/midia/ins1.jpg";
+import lin from "../assets/midia/lin5.png";
 
 export default function Footer() {
   const estilo = {

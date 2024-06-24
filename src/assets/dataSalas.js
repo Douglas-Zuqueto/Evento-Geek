@@ -1,13 +1,13 @@
 /*Importações de imagens*/
-import room1 from './images/Kpop.webp';
-import room2 from './images/Cosplay.jpg';
-import room3 from './images/Estande.jpg';
-import room4 from './images/arena.png';
-import room5 from './images/League_of_legends.jpg';
-import room6 from './images/Valorant.jpg';
-import room7 from './images/Rocket_League.jpg';
-import room8 from './images/dragonballsz.webp';
-import room9 from './images/narutoconnections.jpg';
+import room1 from './midia/Kpop.webp';
+import room2 from './midia/Cosplay.jpg';
+import room3 from './midia/Estande.jpg';
+import room4 from './midia/arena.png';
+import room5 from './midia/League_of_legends.jpg';
+import room6 from './midia/Valorant.jpg';
+import room7 from './midia/Rocket_League.jpg';
+import room8 from './midia/dragonballsz.webp';
+import room9 from './midia/narutoconnections.jpg';
 
   
   export const listaSalas = [

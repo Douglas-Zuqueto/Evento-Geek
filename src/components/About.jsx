@@ -1,5 +1,5 @@
-import protas from "../assets/images/protagonistas.jpg";
-import anime from "../assets/images/animes.jpg";
+import protas from "../assets/midia/protagonistas.jpg";
+import anime from "../assets/midia/animes.jpg";
 
 export default function About() {
   return (
