@@ -1,8 +1,6 @@
 import { useState, useEffect } from "react";
-import Swal from 'sweetalert2';
-
+import Swal from "sweetalert2";
 export default function SalaText(props) {
-
   const [modal, setModal] = useState(false);
   if (modal) {
     document.body.classList.add("active-modal");
@@ -73,25 +71,32 @@ export default function SalaText(props) {
 
             <div className="modal-text">
               <div>
-              {props.price == 0
-                  ?<h2>Venha se divertir!</h2>
-                  : <h2>Participe do Torneio</h2>}
+                {props.price == 0 ? (
+                  <h2>Venha se divertir!</h2>
+                ) : (
+                  <h2>Participe do Torneio</h2>
+                )}
+              </div>
+
+              <div>{props.desc}</div>
+
+              <div>
+                {props.price == 0 ? (
+                  <p>
+                    <br />
+                    (Apenas o custo de entrada do evento).
+                  </p>
+                ) : (
+                  <p>
+                    <br />A assinatura custa R${props.price}, assine e batalhe
+                    por R${props.reward} contra seus oponentes com sede de
+                    sangue.
+                  </p>
+                )}
               </div>
 
               <div>
-                {props.desc}
-              </div>
-
-              <div>
-                {props.price == 0
-                  ? <p><br/>(Apenas o custo de entrada do evento).</p>
-                  : <p><br/>A assinatura custa R${props.price}, assine e batalhe por R${props.reward} contra seus oponentes com sede de sangue.</p>}
-              </div>
-
-              <div>
-                <p>
-                  Quer participar? Nos envie seu e-mail.
-                </p>
+                <p>Quer participar? Nos envie seu e-mail.</p>
               </div>
 
               <form onSubmit={handleFormSubmit}>
@@ -106,7 +111,12 @@ export default function SalaText(props) {
                   <p>
                     <input id="same" type="checkbox" required className="in" />
                     <label htmlFor="same">
-                      Eu declaro que sou maior de 18 anos e estou ciente das minhas responsabilidades financeiras. Comprometo-me a gastar o dinheiro com sabedoria, controlar minhas despesas e buscar um equilíbrio financeiro saudável. Entendo que a disciplina e a organização nas questões financeiras são essenciais para garantir um futuro melhor.
+                      Eu declaro que sou maior de 18 anos e estou ciente das
+                      minhas responsabilidades financeiras. Comprometo-me a
+                      gastar o dinheiro com sabedoria, controlar minhas despesas
+                      e buscar um equilíbrio financeiro saudável. Entendo que a
+                      disciplina e a organização nas questões financeiras são
+                      essenciais para garantir um futuro melhor.
                     </label>
                   </p>
                 </span>
@@ -114,11 +124,11 @@ export default function SalaText(props) {
                   Enviar
                 </button>
               </form>
-                <button className="close-modal"  onClick={toggleModal}>
+              <button className="close-modal" onClick={toggleModal}>
                 &times;
-                </button>
-              </div>
+              </button>
             </div>
+          </div>
         </div>
       )}
     </div>

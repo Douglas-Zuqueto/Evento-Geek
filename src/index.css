@@ -58,7 +58,7 @@ a:hover {
   position: relative;
   text-align: center;
   justify-content: space-between;
-  background-image: url(./assets/images/fundotela.png);
+  background-image: url(./assets/images/fundosobre.png);
   background-repeat: no-repeat;
   min-height: 100vh;
   background-size: cover;
@@ -72,9 +72,17 @@ a:hover {
 }
 
 #aboutImg {
-  width: 550px;
-  height: 435px;
+  width: 450px;
+  height: 300px;
   background-image: url(./assets/images/about.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+margin-bottom: 1rem;
+}
+.aboutImg {
+  width: 450px;
+  height: 300px;
+  background-image: url(./assets/images/animes.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -85,14 +93,14 @@ a:hover {
 #aboutText p {
   font-weight: 500;
 }
-#aboutText h1 {
+#aboutText h4 {
   font-weight: 700;
 }
 
 /* Guest */
 
 #guest {
-  background-image: url(./assets/images/fundotela.png);
+  background-image: url(./assets/images/convidado.png);
   background-repeat: no-repeat;
   min-height: 100vh;
   background-size: cover;
@@ -105,26 +113,36 @@ a:hover {
   justify-content: center;
   width: 100%;
   font-size: 3rem;
+  margin-bottom: 3rem;
+  gap: 3rem;
+  
 }
 
 #guestgrid{
   display: grid;
-  grid-template-columns: 45% auto;
+  grid-template-columns: 30% 65%;
 }
 
 #guestimgcontainer {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
+  padding-top: 0;
+  gap: 0rem;
+  text-align: center;
+  text-justify: center;
+}
+
+#guestimgcontainer h1{
+  display: flex;
+  text-align: center;
+  margin-left: 40px;
 }
 
 #guestimg {
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
   border-radius: 50%;
-  margin: 20px auto 10px auto;
+  margin: 0px auto 0px 40px;
 }
 
 #guesttext {
@@ -132,12 +150,18 @@ a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: start;
+  font-size: 18px;
+  margin-left: 80px;
 }
 
 #cardsguest {
   display: flex;
   flex-direction: space-between;
   width: 100%;
+  gap: 3rem;
+  padding: 10px;
+  margin: 10px;
 }
 
 .cardGuest {
@@ -155,15 +179,17 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 150px;
+  width: 120px;
   height: 100px;
   border-radius: 50%;
+  margin-bottom: 1rem;
 }
 
 .card-titleGuest {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   font-size: 1rem;
 }
 
@@ -220,13 +246,16 @@ padding-bottom: 30px;
   margin-left: 2%;
   margin-top: 30px;
   border: 1px solid transparent !important;
+  background-color: transparent;
+  color: white;
 }
 #price .card h1 {
   font-weight: 700;
 }
 .card-body {
   padding: 0 !important;
-  width: 100% !important;
+  width: 100%;
+  background-color: transparent;
 }
 .card-text {
   font-weight: 600;
@@ -236,63 +265,107 @@ padding-bottom: 30px;
   width: 100%;
   height: 200px;
 }
+#videoE {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    margin-top: 40px;
+}
 
-/* Team */
-#team {
-  text-align: center;
-  background-image: url(./assets/images/fundotela.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+#videoE video {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Rules */
+
+#rules {
+  background: url(./assets/images/fundotela.png);
+  background-size: fill;
   color: white;
 }
 
-#team h1 {
-  margin-top: 100px;
-  font-weight: 800;
+#rules .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  margin: 30px auto 20px auto;
+  padding: 10px;
 }
 
-.teamtext img {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-}
-
-.teamtext {
-  display: inline-block;
+#rules .title2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  width: 30%;
+  font-size: 3.5rem;
+  margin: 30px 100px 20px 100px;
+  padding: 10px;
+}
+
+#rules p {
+  display: flex;
+  justify-content: center;
+  font-size: 1rem;
+  margin-bottom: 30px;
+  padding: 10px;
+}
+
+#rules ol {
+  margin: 30px 100px 30px 100px;
+}
+
+#rules li {
+  margin: 10px;
 }
 
 /* Contact */
 #contact {
-  padding-top: 40px;
-  text-align: center;
+text-align: center;
+background-image: url(./assets/images/equipe.png);
+background-repeat: no-repeat;
+background-size: cover;
+color: white;
+padding-top: 40px;
+justify-content: space-around;
 }
 
 .contactUs {
   width: 50%;
   margin: auto;
-  padding: 20px;
+  padding: 0px;
 }
 #contact h1 {
   font-weight: 800;
+  
 }
 /* Footer */
 .myfooter {
-  text-align: center;
-  width: 100%;
+  text-align: center; 
+  width: 100%; 
   background-color: black;
-  float: left;
+  display: flex; 
+  justify-content: space-around; 
+  align-items: flex-start; 
+  flex-wrap: wrap; 
+  color: white; 
 }
 
-.myfooter .card {
+.myfooter .cardfooter {
   display: inline-block;
   text-align: center;
   border: 0px none white !important;
   background-color: black;
   color: white;
   width: 30%;
-  margin-left: 3%;
+  margin-top: 2rem;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
 }
 
 #rights {
@@ -545,4 +618,5 @@ padding-bottom: 30px;
     text-align: center;
     margin: 90px auto 0px auto;
   }
+
 }
