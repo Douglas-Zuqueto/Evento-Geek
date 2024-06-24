@@ -53,13 +53,18 @@ const Navbar = () => {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/salas" onClick={handleMenuItemClick}>
-              Salas
+            <NavLink to="/about" onClick={handleMenuItemClick}>
+              Sobre
             </NavLink>
           </li>
           <li>
             <NavLink to="/guest" onClick={handleMenuItemClick}>
               Convidado
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/salas" onClick={handleMenuItemClick}>
+              Salas
             </NavLink>
           </li>
           <li>
@@ -70,11 +75,6 @@ const Navbar = () => {
           <li>
             <NavLink to="/contact" onClick={handleMenuItemClick}>
               Contato
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to="/about" onClick={handleMenuItemClick}>
-              Sobre
             </NavLink>
           </li>
         </ul>
