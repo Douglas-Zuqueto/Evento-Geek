@@ -27,7 +27,7 @@ export default function Contact() {
                     <div className='cardEquipe'>
                     <a href='' target="_blank"><img src={img1} className='equipeFoto1'/></a>
                     <a href='https://www.linkedin.com/in/viviane-santos-a6a69127b' target="_blank"><img src={img2} className='equipeFoto2'/></a>
-                    <a href='' target="_blank"><img src={img3} className='equipeFoto3'/></a>
+                    <a href='https://www.linkedin.com/in/luana-silva-de-sousa-2186992a2/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BeBbcq9GqTI%2Bin69mtEAYJA%3D%3D' target="_blank"><img src={img3} className='equipeFoto3'/></a>
                     <a href='https://www.linkedin.com/in/kau%C3%A3-souza-400758101/' target="_blank"><img src={img4} className='equipeFoto4'/></a>
                     <a href='' target="_blank"><img src={img5} className='equipeFoto5'/></a>
                     </div>
