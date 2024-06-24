@@ -47,9 +47,21 @@ export default function Footer() {
                 </div>
             </div>
 
-            <div><br /><br />
-                <p id="rights">Todos os direitos reservados | Geek Tech | Junho - 2024</p>
-                <p id="disclaimer">*Este site é exclusivo para fins educacionais.</p>
+                <div className="cardfooter">
+                    <br />
+
+                    <div className="card-body">
+                        <h3 className="card-title">Contato</h3>
+                        <p className="text">Endereço: Rua dos Animes, 13 - Centro -  Cataguases/Mg</p>
+                        <p className="text">Tel: (32)4324-7810</p>
+                        <p className="text">Email: geektech@gmail.com</p>
+                    </div>
+                </div>
+
+                <div><br /><br />
+                    <p id="rights">Todos os direitos reservados | Geek Tech | Junho - 2024</p>
+                    <p id="disclaimer">*Este site é exclusivo para fins educacionais.</p>
+                </div>
             </div>
 
         </div>
