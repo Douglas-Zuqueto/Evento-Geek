@@ -7,14 +7,16 @@ import lin from '../assets/images/lin5.png';
 export default function Footer() {
 
     const estilo ={
-        width:'50px',
-        height:'50px',
-        cursor:'pointer',
+        width: '50px',
+        height: '50px',
+        cursor: 'pointer',
+        borderRadius: '50%', 
+        marginLeft: '10px' 
     }
 
     return (
         <div id="footer" className="myfooter">
-            <div className="card">
+            <div className="cardfooter">
                 <br />
                 <div className="card-body">
                     <h3 className="card-title">Sobre Nós</h3>
@@ -26,38 +28,29 @@ export default function Footer() {
                 </div>
             </div>
 
-            <div className="card">
-
-                <div className="cardfooter">
-                    <br />
-
-                    <div className="card-body">
-                        <h3 className="card-title">Data do Evento</h3>
-                        <p className="text">Próximo Evento: 25 de Dezembro de 2024, 12:00 BRT</p>
-                        <p>Para mais informações, entre em contato conosco</p>
-                    </div>
+            <div className="cardfooter">
+                <br />
+                <div className="card-body">
+                    <h3 className="card-title">Data do Evento</h3>
+                    <p className="text">Próximo Evento: 25 de Dezembro de 2024, 12:00 BRT</p>
+                    <p>Para mais informações, entre em contato conosco</p>
                 </div>
             </div>
 
-            <div className="card">
-
-                <div className="cardfooter">
-                    <br />
-
-                    <div className="card-body">
-                        <h3 className="card-title">Contato</h3>
-                        <p className="text">Endereço: Rua dos Animes, 13 - Centro -  Cataguases/Mg</p>
-                        <p className="text">Tel: (32)4324-7810</p>
-                        <p className="text">Email: geektech@gmail.com</p>
-                    </div>
+            <div className="cardfooter">
+                <br />
+                <div className="card-body">
+                    <h3 className="card-title">Contato</h3>
+                    <p className="text">Endereço: Rua dos Animes, 13 - Centro -  Cataguases/Mg</p>
+                    <p className="text">Tel: (32)4324-7810</p>
+                    <p className="text">Email: geektech@gmail.com</p>
                 </div>
-
+            </div>
                 <div><br /><br />
                     <p id="rights">Todos os direitos reservados | Geek Tech | Junho - 2024</p>
                     <p id="disclaimer">*Este site é exclusivo para fins educacionais.</p>
                 </div>
             </div>
 
-        </div>
     )
 }
