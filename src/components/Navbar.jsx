@@ -44,7 +44,7 @@ const Navbar = () => {
                     <li><NavLink to="/guest" onClick={handleMenuItemClick}>Convidado</NavLink></li>
                     <li><NavLink to="/rules" onClick={handleMenuItemClick}>Regras</NavLink></li>
                     <li><NavLink to="/contact" onClick={handleMenuItemClick}>Contato</NavLink></li>
-                    <li><NavLink to="/about" onClick={handleMenuItemClick}>Curiosidades</NavLink></li>
+                    <li><NavLink to="/about" onClick={handleMenuItemClick}>Sobre</NavLink></li>
 
                 </ul>
             </nav>
