@@ -259,8 +259,6 @@ padding-bottom: 30px;
   height: 200px;
 }
 #videoE {
-    background-repeat: no-repeat;
-    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
