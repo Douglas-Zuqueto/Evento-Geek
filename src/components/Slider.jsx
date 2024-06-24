@@ -1,3 +1,4 @@
+import videoSlider from '../assets/images/Geek tech.mp4'
 // slide página principal
 export default function Slider() {
   return (
@@ -19,7 +20,7 @@ export default function Slider() {
         <iframe
           width="560"
           height="315"
-          src="https://animeuai.com.br/wp-content/uploads/2024/06/ANIME-UAI-TV.mp4"
+          src={videoSlider}
           title="YouTube video player"
           frameBorder="0"
           allow="accelerometer; clipboard-write; 
