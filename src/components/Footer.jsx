@@ -14,7 +14,7 @@ export default function Footer() {
 
     return (
         <div id="footer" className="myfooter">
-            <div className="cardfooter">
+            <div className="card">
                 <br />
                 <div className="card-body">
                     <h3 className="card-title">Sobre Nós</h3>
@@ -38,7 +38,6 @@ export default function Footer() {
                     </div>
                 </div>
             </div>
-
 
             <div className="card">
 
