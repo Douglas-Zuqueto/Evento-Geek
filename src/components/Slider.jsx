@@ -1,4 +1,4 @@
-import videoSlider from '../assets/images/Geek tech.mp4'
+import videoSlider from '../assets/images/Geektech.mp4'
 // slide página principal
 export default function Slider() {
     return (
